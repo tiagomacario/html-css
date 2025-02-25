@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras FOrmatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O comando <code>document.getElementByID('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR.')
+else:
+    print(f'O número {num} é ÍMPAR.')
+print('Fim do programa.')
+        </code> <!--O comando <code>, sozinho, não identa o código (tudo aparece na mesma linha). Para identá-lo, precisamos do <pre>.-->
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p> <!--<q> traz sentido, diferentemente de somente colocar as "".-->
+    <h2>Citações Completas</h2>
+    <p>Segundo Deborah Ray, no seu livro Mastering HTML and XHTML: </p>
+    <blockquote cite="https://www.google.com/books/edition/Mastering_HTML_and_XHTML/ym8nKP7JdHwC?hl=en&gbpv=1"> <!--O cite não muda nada, visualmente, porém, altera coisas nos mecanismos de busca do Google.-->
+        You can easily see yuor editing changes in a file by reloading it. For example, after you view a document and then save some editing changes, you can reload the 
+        document and se the lastest changes.
+    </blockquote>
+</body>
+</html>
